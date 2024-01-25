@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+img{
+    height:35px;
+    width:35px;
+}
+.header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:5px;
+    background:grey;
+}
+
+.work{
+    padding-top:10px;
+}
+.work span{
+  margin:0px 20px;
+ 
+}
+.login_page{
+    padding-top:10px;
+}
+.login_page span {
+    margin:0px 10px;
+}
+
+.lgn_Sign{
+ position:absolute;
+ left:35%;
+ top:20%;
+
+ height:50%;
+ width:30%;
+ background-color:whitesmoke;
+ border-radius:10px;
+ border:1px solid whitesmoke;
+}
+.lgn_Sign .head_btn{
+    border: none;
+    text-align:center;
+    display:inline-block;
+    padding:10px 10px;
+    margin:0 4px;
+    font-family:Serif;
+    font-weight: 400;
+    cursor:pointer;
+    border-radius:8px;
+    font-size: x-large;
+    background-color:whitesmoke;
+}
+.lgn_Sign .head_btn:hover{
+    background: #e3f6f5;
+    transform:translateX(-1px)
+}
+.SignUp_box{
+    position:absolute;
+    border-radius:0px 0px 10px 10px;
+    top:auto;
+    left:0;
+    right:0;
+    bottom:0;
+    height:87%;
+    width:100%;
+    border:1px solid white;
+}
+
+
+.label_input{
+    font-size: large;
+    padding:5% 12%;
+    
+}
+.lbl{
+    font-style: oblique;
+}
+.input{
+    position:relative;
+    height:4%;
+    width:100%;
+}
+
+.submit_btn{
+    position:relative;
+    margin:0 40% 11% 40%;  /* */
+    padding:3% 4%;
+    background:gainsboro;
+    font-size:medium;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+.submit_btn:hover{
+    background: aqua;
+    transform:translateY(-2px);
+
+}
